@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="e2cb4d5d8f0246e9852ebe65e46fcf11" Name="Diagram1">
+        <EntityTypeShape EntityType="CompanyModel.Career" Width="1.5" PointX="6.375" PointY="1.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="CompanyModel.Department" Width="1.5" PointX="2.125" PointY="0.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="CompanyModel.Employee" Width="1.5" PointX="11.25" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="CompanyModel.Job" Width="1.5" PointX="2.125" PointY="3" IsExpanded="true" />
+        <EntityTypeShape EntityType="CompanyModel.Salary" Width="1.5" PointX="11.25" PointY="4.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="CompanyModel.sysdiagram" Width="1.5" PointX="15.625" PointY="3.125" IsExpanded="true" />
+        <AssociationConnector Association="CompanyModel.FK_IdDepartment" ManuallyRouted="false" />
+        <AssociationConnector Association="CompanyModel.FK_IdEmployee" ManuallyRouted="false" />
+        <AssociationConnector Association="CompanyModel.FK_IdJob" ManuallyRouted="false" />
+        <AssociationConnector Association="CompanyModel.FK_IdEmployee_Salary" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
